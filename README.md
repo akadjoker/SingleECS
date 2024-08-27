@@ -43,23 +43,23 @@ To compile and run the engine, you will need:
 ### Installation
 
 1. **Clone the repository**:
-    \`\`\`bash
+    ```bash
     git clone https://github.com/akadjoker/SingleECS
     cd SingleECS
-    \`\`\`
+    ```
 
 2. **Build the project**:
-    \`\`\`bash
+    ```bash
     mkdir build
     cd build
     cmake ..
     make
-    \`\`\`
+    ```
 
 3. **Run the executable**:
-    \`\`\`bash
+    ```bash
     ./your_executable_name
-    \`\`\`
+    ```
 
 ### Usage
 
@@ -70,7 +70,7 @@ To compile and run the engine, you will need:
 
 ### Example
 
-\`\`\`cpp
+```cpp
 #include "Core.hpp"
 
 int main() {
@@ -97,4 +97,4 @@ int main() {
     CloseWindow();
     return 0;
 }
-\`\`\`
+```
