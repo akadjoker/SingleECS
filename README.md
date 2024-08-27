@@ -44,8 +44,8 @@ To compile and run the engine, you will need:
 
 1. **Clone the repository**:
     \`\`\`bash
-    git clone https://github.com/yourusername/yourrepositoryname.git
-    cd yourrepositoryname
+    git clone https://github.com/akadjoker/SingleECS
+    cd SingleECS
     \`\`\`
 
 2. **Build the project**:
@@ -78,7 +78,7 @@ int main() {
     InitWindow(800, 600, "High-Performance Game Engine");
 
     ECS ecs;
-    ecs.init();
+
 
     // Create entities and components here
     Entity entity = ecs.create();
